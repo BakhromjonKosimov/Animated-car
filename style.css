@@ -1,0 +1,175 @@
+.car{
+    width: 180px;
+    height: 90px;
+    background-color: red;
+    position: absolute;    
+    border-radius: 10px 30px 30px 10px;
+    animation-name: machine;
+    animation-duration: 10s;
+    position: relative;
+    margin: 100px;
+    z-index: 3;
+
+  
+}
+.light1{
+    width: 10px;
+    height: 20px;
+    background-color: yellow;
+    position: relative;
+    left: 160px;
+    top: 10px;
+    border-radius: 70%;
+}
+.light2{
+    width: 10px;
+    height: 20px;
+    background-color: yellow;
+    position: relative;
+    left: 160px;
+    top: 36px;
+    border-radius: 70%;
+}
+.wheel{
+   width: 50px;
+   height: 20px;
+   background-color: black;
+   position: absolute;
+}
+.vehicle1{
+    
+    top: -20px;
+    left: 20px;
+    border-radius: 10px 10px 0 0 ;
+} 
+.vehicle2{
+   
+    position: absolute;
+    top: -20px;
+    left: 97px;
+    border-radius: 10px 10px 0 0 ;
+}
+.vehicle3{
+  
+    position: absolute;
+    top: 90px;
+    left: 97px;
+    border-radius: 0px 0px 10px 10px ;
+} 
+.vehicle4{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    border-radius: 0px 0px 10px 10px ;
+} 
+@keyframes machine{
+   0%{transform: translate(0,0);} 
+   20%{transform: translate(400px, 0);}
+   25%{transform: translate(425px, 0) rotate(90deg);}
+   50%{transform: translate(425px,425px) rotate(90deg);}
+   55%{transform: translate(425px,450px) rotate(180deg);}
+   70%{transform: translate(0px, 450px) rotate(180deg);}
+   75%{transform: translate(-25px, 425px)rotate(270deg);}
+   95%{transform: translate(0px, 0px)rotate(270deg);}
+   100%{transform: translate(0px, 0px)rotate(360deg);}
+
+   
+}  
+.park{
+    width: 280px;
+    height: 200px;
+    background-color: blueviolet;
+    z-index: 1;
+    position: relative;
+    top: -245px;
+    left: 50px;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    
+}
+p{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+.first-road{
+    width: 900px;
+    height: 150px;
+    background-color: rgb(69, 45, 92);
+    z-index: 1;
+    position: relative;
+    top: -423px;
+    left: 335px;
+}
+.second-road{
+    width: 150px;
+    height: 500px;
+    background-color: rgb(69, 45, 92);
+    z-index: 1;
+    position: relative;
+    top: -460px;
+    left: 540px;
+}
+.third-road{
+    width: 550px;
+    height: 150px;
+    background-color: rgb(69, 45, 92);
+    z-index: 1;
+    position: relative;
+    top: -640px;
+    left: 0px;
+}
+.fourth-road{
+    width: 155px;
+    height: 270px;
+    background-color: rgb(69, 45, 92);
+    z-index: 1;
+    position: relative;
+    top: -1075px;
+    left: 90px;
+}
+.inner1{
+    background-color: white;
+    width: 60px;
+    height: 11px;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 58px;
+    float: left;
+    margin: 10px;
+}
+.inner2{
+    background-color: white;
+    width: 11px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left: 58px;
+    top: 58px;
+    margin: 15px;
+}
+.inner3{
+    background-color: white;
+    width: 60px;
+    height: 11px;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 58px;
+    float: left;
+    margin: 10px;
+}
+.inner4{
+    background-color: white;
+    width: 11px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    left: 58px;
+    top: 58px;
+    margin: 15px;
+
+
+
+}
